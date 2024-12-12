@@ -21,6 +21,6 @@ tiny system usage monitor providing system usage stats in json format.
 ```
 
 ## building
-right now my makefile just supports `zig cc` but its very easy to use the compiler of your choice.
+right now the makefile just supports `zig cc` but its very easy to use the compiler of your choice.
 
 > just use the compiler of your choice.
