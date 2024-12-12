@@ -1,4 +1,6 @@
-CC = zig cc
+# Set the compiler; defaults to gcc if not specified
+CC ?= gcc
+
 CFLAGS = -Wall -Wextra -I./include
 SRC = src/main.c src/usage.c
 BIN_DIR = bin
@@ -17,3 +19,4 @@ clean:
 
 run: $(TARGET)
 	./$(TARGET)
+

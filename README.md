@@ -21,6 +21,12 @@ tiny system usage monitor providing system usage stats in json format.
 ```
 
 ## building
-right now the makefile just supports `zig cc` but its very easy to use the compiler of your choice.
+```shell
+# tested examples
+make
+make CC=gcc
+make CC=clang
+make CC="zig cc"
+make CC=tcc
+```
 
-> just use the compiler of your choice.
