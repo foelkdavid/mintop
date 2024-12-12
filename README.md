@@ -1,5 +1,5 @@
 # mintop
-tiny json system usage monitor providing system usage stats in json format.
+tiny system usage monitor providing system usage stats in json format.
 
 
 ## Example output
