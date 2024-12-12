@@ -22,7 +22,7 @@ tiny system usage monitor providing system usage stats in json format.
 
 ## building
 ```shell
-# tested examples
+# tested examples (make just uses you default cc 9/10 times its gcc)
 make
 make CC=gcc
 make CC=clang
